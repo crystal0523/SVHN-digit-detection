@@ -13,6 +13,6 @@ Use Retina Net to do SVHN digit detection
     
   <h2>Pre-trained model  
   <h2>References</h2>
-    * https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/train_digit_detection.py
-    * https://github.com/AlessandroSaviolo/RetinaNET-Object-Detector/tree/master/src
-    * https://github.com/yhenon/pytorch-retinanet
+    <ol>https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/train_digit_detection.py
+     https://github.com/AlessandroSaviolo/RetinaNET-Object-Detector/tree/master/src
+     https://github.com/yhenon/pytorch-retinanet</ol>
