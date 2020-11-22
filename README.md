@@ -2,11 +2,14 @@
 Use Retina Net to do SVHN digit detection
   <h2>Dataset
   
-  <h2>Use this code as following steps</h2>
-    1. Download dataset from official site
+  <h2>Installation</h2>
+    Download dataset from official site
     <p>http://ufldl.stanford.edu/housenumbers/</p>
-    2. Use 
-    3.
-    4.
-    5.
- <h2>References</h2>
+  <h2>Training</h2>
+    Run train.py by fololwing command
+      
+    <p>python train.py --dataset csv --csv_train <path/to/train_annots.csv>  --csv_classes <path/to/train/class_list.csv>  --csv_val <path/to/val_annots.csv></p>
+ 
+    
+  <h2>Pre-trained model  
+  <h2>References</h2>
