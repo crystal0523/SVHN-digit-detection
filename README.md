@@ -1,17 +1,29 @@
 # SVHN-digit-detection
 Use Retina Net to do SVHN digit detection
-  <h2>Dataset
+  ##Dataset
   
-  <h2>Installation</h2>
-    Download dataset from official site
-    <p>http://ufldl.stanford.edu/housenumbers/</p>
-  <h2>Training</h2>
+  ##Enviornment
+  ```
+  ```
+  ##Installation
+   1)Download dataset from official site
+    -http://ufldl.stanford.edu/housenumbers/
+   2) Clone this repo
+   3) Install Python packages
+  ##Training
     Run train.py by fololwing command
       
     python train.py --dataset csv --csv_train <path/to/train_annots.csv>  --csv_classes <path/to/train/class_list.csv>  --csv_val <path/to/val_annots.csv>
  
     
-  <h2>Pre-trained model  
+  ##Pre-trained model  
+  pre-trained model is available at:
+  
+  The state dict model can be loaded using:
+  ```
+  retinanet = model.resnet50(num_classes=dataset_train.num_classes(),)
+  retinanet.load_state_dict(torch.load(PATH_TO_WEIGHTS))
+  ```
   <h2>References</h2>
     
    <h3>
