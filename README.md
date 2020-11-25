@@ -6,7 +6,7 @@ Use Retina Net to do SVHN digit detection
   ```
   ```
   ## Installation
-   1)Download dataset from official site
+   1) Download dataset from official site
     -http://ufldl.stanford.edu/housenumbers/
    2) Clone this repo
    3) Install Python packages
@@ -25,7 +25,7 @@ Use Retina Net to do SVHN digit detection
   retinanet.load_state_dict(torch.load(PATH_TO_WEIGHTS))
   ```
   ## References
-   1)-https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/train_digit_detection.py
-   2)-https://github.com/AlessandroSaviolo/RetinaNET-Object-Detector/tree/master/src
-   3)-https://github.com/yhenon/pytorch-retinanet</h3>
+   1) -https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/train_digit_detection.py
+   2) -https://github.com/AlessandroSaviolo/RetinaNET-Object-Detector/tree/master/src
+   3) -https://github.com/yhenon/pytorch-retinanet</h3>
    
