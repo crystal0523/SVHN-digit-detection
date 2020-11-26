@@ -10,6 +10,12 @@ Use Retina Net to do SVHN digit detection
     -http://ufldl.stanford.edu/housenumbers/
    2) Clone this repo
    3) Install Python packages
+   ```
+   pip install pandas
+   pip install pycocotools
+   pip install opencv-python
+   pip install requests
+   ```
   ## Training
     Run train.py by fololwing command
       
