@@ -7,7 +7,7 @@ Use Retina Net to do SVHN digit detection
   ```
   ## Installation
    1) Download dataset from official site
-    -http://ufldl.stanford.edu/housenumbers/
+    http://ufldl.stanford.edu/housenumbers/
    2) Clone this repo
    3) Install Python packages
    ```
