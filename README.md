@@ -13,6 +13,7 @@ Use Retina Net to do SVHN digit detection
   ---
   ## Enviornment
   ```
+  torch version 1.7.0
   ```
   ## Installation
    1) Download dataset from official site
@@ -31,13 +32,12 @@ Use Retina Net to do SVHN digit detection
     python train.py --dataset csv --csv_train <path/to/train_annots.csv>  --csv_classes <path/to/train/class_list.csv>  --csv_val <path/to/val_annots.csv>
  
     
-  ## Pre-trained model  
+  ## Visulaize
   pre-trained model is available at:
   
-  The state dict model can be loaded using:
+  To visualize image, use:
   ```
-  retinanet = model.resnet50(num_classes=dataset_train.num_classes(),)
-  retinanet.load_state_dict(torch.load(PATH_TO_WEIGHTS))
+  python inference.py --dataset csv --csv_classes <path/to/train/class_list.csv>  --csv_val <path/to/val_annots.csv> --model <path/to/model.pt>
   ```
   ## Credits
    1) -https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/train_digit_detection.py
