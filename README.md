@@ -1,7 +1,7 @@
 # SVHN-digit-detection
 Use Retina Net to do SVHN digit detection
   ## Dataset
-  SVHN is obtained from house numbers in Google Street View images. It contain 10 classes, 1 for each digit. Digit '1' has label 1, '9' has label 9 and '0' has label 10 instead of 0.
+    SVHN is obtained from house numbers in Google Street View images. It contain 10 classes, 1 for each digit. Digit '1' has label 1, '9' has label 9 and '0' has label 10 instead of 0.
   ---
 
   <p align="center">
