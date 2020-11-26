@@ -30,8 +30,8 @@ Use Retina Net to do SVHN digit detection
   retinanet = model.resnet50(num_classes=dataset_train.num_classes(),)
   retinanet.load_state_dict(torch.load(PATH_TO_WEIGHTS))
   ```
-  ## References
+  ## Credits
    1) -https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/train_digit_detection.py
    2) -https://github.com/AlessandroSaviolo/RetinaNET-Object-Detector/tree/master/src
    3) -https://github.com/yhenon/pytorch-retinanet</h3>
-   
+  ## Example
