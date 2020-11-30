@@ -34,7 +34,7 @@ Use Retina Net to do SVHN digit detection
     
   ## Visulaize
   pre-trained model is available at:
-  
+  https://drive.google.com/file/d/1OMCnOHyJt2DW_JStE0WtVpESOiW3-gEu/view?usp=sharing
   To visualize image, use:
   ```
   python inference.py --dataset csv --csv_classes <path/to/train/class_list.csv>  --csv_val <path/to/val_annots.csv> --model <path/to/model.pt>
