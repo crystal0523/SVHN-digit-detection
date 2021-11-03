@@ -32,9 +32,9 @@ This project use ***Retina Net*** to do SVHN digit detection.
     python train.py --dataset csv --csv_train <path/to/train_annots.csv>  --csv_classes <path/to/train/class_list.csv>  --csv_val <path/to/val_annots.csv>
  
     
-  ## Visulaize
+  ## Visualize
   pre-trained model is available at:
-  https://drive.google.com/file/d/1OMCnOHyJt2DW_JStE0WtVpESOiW3-gEu/view?usp=sharing
+  https://drive.google.com/file/d/1-Szeyz9LA5X_-MvbuYriWovQPEYyrKVI/view?usp=sharing
   
   To visualize image, use:
   ```
